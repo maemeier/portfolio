@@ -1,0 +1,210 @@
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  color: #373737;
+}
+
+:root {
+  --primaryColor: #af9a7d;
+  --mainWhite: #fff;
+  --offWhite: #f7f7f7;
+  --mainBlack: #222;
+  --mainGrey: #373737;
+  --darkGrey: #cfcfcf;
+  --white: #f5f5f5;
+  --brown: #9d806c;
+  --lightPink: #f6d8d8;
+  --darkPink: #be9696;
+  --lightBlack: #414141;
+  --mainBlack: #1b1b1b;
+  --font: #373737;
+  --pink: linear-gradient(
+    90deg,
+    rgba(179, 160, 129, 1) 35%,
+    rgba(218, 170, 143, 0.9444152661064426) 100%
+  );
+
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 3px;
+  --lightShadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+}
+/* tools*/
+.github.icon {
+  margin-top: 15px;
+}
+.extraCard {
+}
+.header1 {
+  min-height: 70vh;
+  background: url("./img/fynista.svg") center/cover no-repeat;
+  position: relative;
+  padding-top: 20rem;
+}
+
+.main-btn,
+.banner-btn {
+  display: inline-block;
+  background: #b9a16e;
+  text-decoration: none;
+  letter-spacing: var(--letterSpacing);
+  text-transform: uppercase;
+  padding: 0.8rem 1.2rem;
+  color: var(--mainDark);
+  font-weight: bold;
+  outline: 0.2rem solid #b5a275;
+  outline-offset: 4px;
+  cursor: pointer;
+  border: none;
+  margin-top: 2rem;
+  transition: var(--mainTransition);
+}
+.main-btn:hover,
+.banner-btn:hover {
+  color: var(--mainWhite);
+  opacity: 0.7;
+}
+.banner-btn {
+  padding: 1.2rem 1.5rem;
+  animation: show 3s ease-in-out 1;
+}
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Homepage*/
+.container {
+  position: relative;
+}
+
+.logo4 {
+  width: 100%;
+  max-width: 50rem;
+  display: block;
+  top: 0;
+  z-index: 6;
+}
+img.fynista1 {
+  position: relative;
+  width: 100%;
+}
+/* End Homepage*/
+
+/* card*/
+div.content {
+  padding: 4rem 0;
+  max-width: 380px;
+  margin: 0 auto;
+}
+.ui.card {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+/* end card*/
+
+/* Banner*/
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: var(--gold);
+  letter-spacing: var(--letterSpacing);
+  margin-top: 100px;
+}
+.banner-subtitle {
+  font-size: 1.3rem;
+  color: black;
+}
+
+.banner-title {
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin-top: 2.5rem;
+  line-height: 1.3;
+  animation: slideFromLeft 5s ease-in-out 1;
+  color: var(--gold);
+}
+/* endBanner*/
+
+/* Footer*/
+.svg2 {
+  position: relative;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  left: 0;
+}
+div.footer {
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+div.info {
+  justify-content: center;
+}
+/* end footer*/
+
+@media screen and (min-width: 768px) {
+  img.fynista1 {
+    position: relative;
+    width: 100%;
+  }
+  div.content1 {
+    padding: 4rem 0;
+    max-width: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  img.fynista1 {
+    position: relative;
+    width: 100%;
+  }
+  div.content1 {
+    padding: 4rem 0;
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .ui.card {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .logo4 {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+  img.fynista1 {
+    position: relative;
+    width: 100%;
+  }
+  div.content1 {
+    width: 900vw;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    justify-content: center;
+  }
+  .ui.card {
+    margin: 0 auto;
+  }
+}
