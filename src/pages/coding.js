@@ -4,10 +4,12 @@ import Card from "../components/card";
 import Title from "../components/title";
 import Banner from "../components/banner";
 import Footer from "../components/footer";
+import Navbar from "../components/navbar";
 
 const Coding = () => {
   return (
     <div>
+      <Navbar />
       <Header />
       <Title title={"CODING PROJECTS"} />
       <Card />
