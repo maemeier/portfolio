@@ -13,7 +13,7 @@ const AboutMe = () => {
       <Navbar />
       <Header />
       <Title title="ABOUT ME" />
-      <div className="about">
+      <div className="aboutBox">
         <img className="aboutMe" src={mae} alt="mae" />
         <img className="aboutMe" src={skill} alt="mae" />
         <img className="aboutMe" src={skill1} alt="mae" />

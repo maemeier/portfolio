@@ -540,7 +540,7 @@ div.info {
     background: linear-gradient(200deg, var(--lightBlack), var(--mainBlack));
     z-index: -1;
   }
-  .about {
+  .aboutBox {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1500px;
