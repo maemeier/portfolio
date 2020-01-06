@@ -340,7 +340,7 @@ div.info {
   div.middle {
     max-width: 700px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     margin: 0 auto;
     justify-content: center;
   }
@@ -365,7 +365,7 @@ div.info {
     padding-top: 7rem;
   }
   .middleBox {
-    width: 40vw;
+    width: 30vw;
     margin: 0 auto;
   }
   .middleImg {
