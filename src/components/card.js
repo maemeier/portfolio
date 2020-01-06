@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ipad from "../img/ipad1.png";
 import tea0 from "../img/tea0.png";
 import tea1 from "../img/tea1.png";
@@ -10,7 +11,9 @@ import jar0 from "../img/jar0.png";
 import jar2 from "../img/jar2.png";
 import eat1 from "../img/eat0.png";
 import eat2 from "../img/eat2.png";
+import dic0 from "../img/dic0.png";
 import dic1 from "../img/dic1.png";
+import dis1 from "../img/dis1.png";
 class Card extends React.Component {
   render() {
     return (
@@ -45,7 +48,8 @@ class Card extends React.Component {
                 <div class="ui basic green button">Check Website</div>
               </div>
               <a>
-                <i className="github icon"></i>GitHub
+                <i className="github icon"></i>{" "}
+                <a href="https://song-fyni.netlify.com/">GitHub</a>
               </a>
             </div>
           </div>
@@ -150,8 +154,9 @@ class Card extends React.Component {
           </div>
 
           <div className="ui card">
-            <div className="ui slide masked  image">
-              <img src={dic1} className="visible content" />
+            <div className="ui slide masked reveal image">
+              <img src={dic0} className="visible content" />
+              <img src={dic1} className="hidden content" />
             </div>
             <div className="content">
               <a className="header">Dictionary</a>
@@ -181,7 +186,7 @@ class Card extends React.Component {
           </div>
           <div className="ui card">
             <div className="ui slide masked  image">
-              <img src={dic1} className="visible content" />
+              <img src={dis1} className="visible content" />
             </div>
             <div className="content">
               <a className="header">Lyrics</a>
@@ -190,6 +195,7 @@ class Card extends React.Component {
                   Built with Redux<i className="react icon"></i>
                   <i class="js square icon"></i>
                   <i class="html5 icon"></i>
+                  <i class="mobile alternate icon"></i>
                 </span>
               </div>
               <br />
@@ -201,11 +207,15 @@ class Card extends React.Component {
               </p>
             </div>
             <div className="extra content">
-              <div class="ui two buttons">
-                <div class="ui basic green button">Check Website</div>
-              </div>
+              <Link to="https://song-fyni.netlify.com">
+                <div class="ui two buttons">
+                  <div class="ui basic green button">Check Website</div>
+                </div>
+              </Link>
               <a>
-                <i className="github icon"></i>GitHub
+                <Link to="https://github.com/maemeier/react-redux-songs">
+                  <i className="github icon"></i>GitHub
+                </Link>
               </a>
             </div>
           </div>
