@@ -9,7 +9,7 @@ const Coding = () => {
   return (
     <div>
       <Header />
-      <Title title={"Poject coding"} />
+      <Title title={"CODING PROJECTS"} />
       <Card />
       <Footer />
     </div>
