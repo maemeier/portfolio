@@ -44,12 +44,14 @@ class Card extends React.Component {
               </p>
             </div>
             <div class="extra content">
-              <div class="ui two buttons">
-                <div class="ui basic green button">Check Website</div>
-              </div>
+              <a href="https://eatwithme-react.herokuapp.com/">
+                <div class="ui two buttons">
+                  <div class="ui basic green button">Check Website</div>
+                </div>
+              </a>
               <a>
                 <i className="github icon"></i>{" "}
-                <a href="https://song-fyni.netlify.com/">GitHub</a>
+                <a href="https://github.com/maemeier/eatwithme_react">GitHub</a>
               </a>
             </div>
           </div>
@@ -78,11 +80,15 @@ class Card extends React.Component {
               </p>
             </div>
             <div className="extra content">
-              <div class="ui two buttons">
-                <div class="ui basic green button">Check Website</div>
-              </div>
+              <a href="https://working-fyni.netlify.com/">
+                <div class="ui two buttons">
+                  <div class="ui basic green button">Check Website</div>
+                </div>
+              </a>
               <a>
-                <i className="github icon"></i> GitHub
+                <a href="https://github.com/maemeier/workingSpace">
+                  <i className="github icon"></i> GitHub
+                </a>
               </a>
             </div>
           </div>
@@ -111,11 +117,15 @@ class Card extends React.Component {
               </p>
             </div>
             <div className="extra content">
-              <div class="ui two buttons">
-                <div class="ui basic green button">Check Website</div>
-              </div>
+              <a href="https://jardin-fyni.netlify.com/">
+                <div class="ui two buttons">
+                  <div class="ui basic green button">Check Website</div>
+                </div>
+              </a>
               <a>
-                <i className="github icon"></i>GitHub
+                <a href="https://github.com/maemeier/flowers">
+                  <i className="github icon"></i>GitHub
+                </a>
               </a>
             </div>
           </div>
@@ -144,11 +154,15 @@ class Card extends React.Component {
               </p>
             </div>
             <div className="extra content">
-              <div class="ui two buttons">
-                <div class="ui basic green button">Check Website</div>
-              </div>
+              <a href="https://tea-fyni.netlify.com/">
+                <div class="ui two buttons">
+                  <div class="ui basic green button">Check Website</div>
+                </div>
+              </a>
               <a>
-                <i className="github icon"></i>GitHub
+                <a href="https://github.com/maemeier/teashop-react">
+                  <i className="github icon"></i>GitHub
+                </a>
               </a>
             </div>
           </div>
@@ -176,11 +190,15 @@ class Card extends React.Component {
               </p>
             </div>
             <div className="extra content">
-              <div class="ui two buttons">
-                <div class="ui basic green button">Check Website</div>
-              </div>
+              <a href="https://github.com/maemeier/crud-color">
+                <div class="ui two buttons">
+                  <div class="ui basic green button">Check Website</div>
+                </div>
+              </a>
               <a>
-                <i className="github icon"></i>GitHub
+                <a href="https://github.com/maemeier/crud-color">
+                  <i className="github icon"></i>GitHub
+                </a>
               </a>
             </div>
           </div>
