@@ -1,20 +1,16 @@
 import React from "react";
 import Header from "../components/header";
-import Middle from "../components/middle";
+import AboutMe from "../components/aboutMe";
 import Card from "../components/card";
-import Banner from "../components/banner";
+import Title from "../components/title";
 import Footer from "../components/footer";
 
 const Homepage = () => {
   return (
     <div>
       <Header />
-      <Banner
-        title={"Make It Simple, but Significant"}
-        name={"CODE AND DESIGN"}
-        button={"Projects"}
-      />
-      <Middle />
+      <Title title={"CODE AND DESIGN"} />
+      <AboutMe />
       <Footer />
     </div>
   );

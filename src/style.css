@@ -75,6 +75,25 @@ body {
   display: table;
 }
 
+/* Title */
+.section-title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.section-title h4 {
+  font-size: 1.5rem;
+  letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.section-title div {
+  width: 5rem;
+  height: 5px;
+  margin: 0 auto;
+  background: var(--primaryColor);
+}
+/* end of Title */
+
 /* Header*/
 .header1 {
   position: relative;
@@ -123,7 +142,46 @@ div.content {
   margin-bottom: 2rem;
 }
 /* end card*/
+/* About*/
+.section-center {
+  padding: 0rem 0;
+  width: 80vw;
+  max-width: 1173px;
+  margin: 0 auto;
+}
+.about-img,
+.about-info {
+  padding: 2rem 0;
+}
+.about-picture-container {
+  /* OVerflow*/
+  overflow: hidden;
+}
+.about-picture {
+  width: 100%;
+  display: block;
+  transition: var(--mainTransition);
+}
+.about-picture-container:hover .about-picture {
+  opacity: 0.5;
+}
+.about-text {
+  margin: 0 auto;
+  max-width: 26rem;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+}
 
+@media screen and (min-width: 992px) {
+  .about-img,
+  .about-info {
+    float: left;
+    width: 50%;
+    padding: 2rem;
+  }
+}
+/* End about*/
 /* Middle*/
 div.middle {
   width: 90vw;
@@ -142,7 +200,7 @@ img.thaiAir {
   text-align: center;
 }
 .middleTitle {
-  max-width: 30rem;
+  max-width: 24rem;
   justify-content: ;
   text-align: center;
 }
@@ -311,6 +369,12 @@ div.info {
     margin: 0 auto;
     margin-bottom: 2rem;
   }
+  .middleTitle {
+    max-width: 30rem;
+    justify-content: ;
+    text-align: center;
+    padding-top: 10px;
+  }
 }
 @media screen and (min-width: 1020px) {
   .logo4 {
@@ -335,47 +399,20 @@ div.info {
     margin: 0 auto;
   }
   .header1 {
-    height: 300px;
-  }
-  div.middle {
-    max-width: 700px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 auto;
-    justify-content: center;
-  }
-  img.thaiAir {
-    width: 45vw;
-    max-width: 55rem;
-  }
-  .middleText {
-    max-width: 35rem;
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 1.1rem;
+    height: 200px;
   }
   .middleTitle {
     max-width: 30rem;
     justify-content: ;
     text-align: center;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-    padding-top: 7rem;
-  }
-  .middleBox {
-    width: 30vw;
-    margin: 0 auto;
-  }
-  .middleImg {
+    padding-top: 10px;
   }
 }
 
 /* Header*/
 div.header1 {
   position: relative;
-  height: 65vh;
+  height: 45vh;
   display: block;
 }
 .header-background {
