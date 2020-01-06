@@ -1,13 +1,14 @@
 import React from "react";
 import ipad from "../img/ipad1.png";
+import tea0 from "../img/tea0.png";
 import tea1 from "../img/tea1.png";
 import tea2 from "../img/tea2.png";
 import co1 from "../img/co1.png";
 import co2 from "../img/co2.png";
 import co3 from "../img/co3.png";
-import jar1 from "../img/jar1.png";
+import jar0 from "../img/jar0.png";
 import jar2 from "../img/jar2.png";
-import eat1 from "../img/eat1.png";
+import eat1 from "../img/eat0.png";
 import eat2 from "../img/eat2.png";
 import dic1 from "../img/dic1.png";
 class Card extends React.Component {
@@ -84,7 +85,7 @@ class Card extends React.Component {
 
           <div className="ui card">
             <div className="ui slide masked reveal image">
-              <img src={jar1} className="visible content" />
+              <img src={jar0} className="visible content" />
               <img src={jar2} className="hidden content" />
             </div>
             <div className="content">
@@ -117,8 +118,8 @@ class Card extends React.Component {
 
           <div className="ui card">
             <div className="ui slide masked reveal image">
-              <img src={tea1} className="visible content" />
-              <img src={tea2} className="hidden content" />
+              <img src={tea0} className="visible content" />
+              <img src={tea1} className="hidden content" />
             </div>
             <div className="content">
               <a className="header">Tea Station</a>
