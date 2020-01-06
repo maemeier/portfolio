@@ -540,7 +540,38 @@ div.info {
     background: linear-gradient(200deg, var(--lightBlack), var(--mainBlack));
     z-index: -1;
   }
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
 }
+/*nav*/
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.75rem 2rem;
+
+  z-index: 1;
+}
+li.link {
+  list-style: none;
+  display: inline-block;
+  float: right;
+  margin-right: 2rem;
+
+  justify-content: center;
+}
+a {
+  color: black;
+}
+
+/* end nav*/
 
 /* Header*/
 div.header1 {
@@ -562,3 +593,10 @@ div.header1 {
 }
 
 /* End Header*/
+
+/* Aboutme*/
+
+.aboutMe {
+  width: 100%;
+}
+/* End Aboutme*/
