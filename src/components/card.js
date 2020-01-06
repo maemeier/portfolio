@@ -207,13 +207,13 @@ class Card extends React.Component {
               </p>
             </div>
             <div className="extra content">
-              <Link to="https://song-fyni.netlify.com">
+              <Link to="/https://song-fyni.netlify.com">
                 <div class="ui two buttons">
                   <div class="ui basic green button">Check Website</div>
                 </div>
               </Link>
               <a>
-                <Link to="https://github.com/maemeier/react-redux-songs">
+                <Link to="/https://github.com/maemeier/react-redux-songs">
                   <i className="github icon"></i>GitHub
                 </Link>
               </a>
