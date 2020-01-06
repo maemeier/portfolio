@@ -4,6 +4,7 @@ import tea1 from "../img/tea1.png";
 import tea2 from "../img/tea2.png";
 import co1 from "../img/co1.png";
 import co2 from "../img/co2.png";
+import co3 from "../img/co3.png";
 import jar1 from "../img/jar1.png";
 import jar2 from "../img/jar2.png";
 import eat1 from "../img/eat1.png";
@@ -50,7 +51,7 @@ class Card extends React.Component {
 
           <div className="ui card">
             <div className="ui slide masked reveal image">
-              <img src={co2} className="visible content" />
+              <img src={co3} className="visible content" />
               <img src={co1} className="hidden content" />
             </div>
             <div className="content">
