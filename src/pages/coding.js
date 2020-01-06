@@ -7,6 +7,12 @@ import Footer from "../components/footer";
 const Coding = () => {
   return (
     <div>
+      <Header />
+      <Banner
+        title={"Make It Simple, but Significant"}
+        name={"Projects coding"}
+        button={"back to home"}
+      />
       <Card />
       <Footer />
     </div>

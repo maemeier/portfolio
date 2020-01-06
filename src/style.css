@@ -124,6 +124,38 @@ div.content {
 }
 /* end card*/
 
+/* Middle*/
+div.middle {
+  width: 90vw;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  margin: 0 auto;
+  justify-content: center;
+}
+img.thaiAir {
+  width: 100%;
+  max-width: 150rem;
+}
+.middleText {
+  max-width: 30rem;
+  justify-content: ;
+  text-align: center;
+}
+.middleTitle {
+  max-width: 30rem;
+  justify-content: ;
+  text-align: center;
+}
+.middleBox {
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+.middleImg {
+}
+
+/* End Middle*/
+
 /* Banner*/
 .banner {
   position: absolute;
@@ -227,8 +259,43 @@ div.info {
     display: block;
     z-index: 6;
   }
+
+  div.middle {
+    width: 90vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  img.thaiAir {
+    width: 100%;
+    max-width: 150rem;
+  }
+  .middleText {
+    max-width: 40rem;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.3rem;
+  }
+  .middleTitle {
+    max-width: 40rem;
+    justify-content: ;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    padding-top: 20px;
+  }
+  .middleBox {
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+  }
+  .middleImg {
+  }
 }
-@media screen and (min-width: 992px) and (max-width: 1024px) {
+@media screen and (min-width: 800px) {
   img.fynista1 {
     position: relative;
     width: 100%;
@@ -269,6 +336,39 @@ div.info {
   }
   .header1 {
     height: 300px;
+  }
+  div.middle {
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  img.thaiAir {
+    width: 45vw;
+    max-width: 55rem;
+  }
+  .middleText {
+    max-width: 35rem;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+  .middleTitle {
+    max-width: 30rem;
+    justify-content: ;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    padding-top: 7rem;
+  }
+  .middleBox {
+    width: 40vw;
+    margin: 0 auto;
+  }
+  .middleImg {
   }
 }
 
