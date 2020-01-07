@@ -180,10 +180,10 @@ class Card extends React.Component {
               </div>
               <br />
               <p>
-                Jardin de l'amour: online shop for preordering wedding bouquets
-                as well as other signature packages for wedding. Built with
-                react, all data stored in localhost. Responsive for desktop,
-                mobile phone and tablette.
+                Dictionary is a single web page for storing color vocabulary.
+                This project was a coding test for intership program. The
+                vocabulary can be added, edited and deleted (if you wish). --
+                Built with react.
               </p>
             </div>
             <div className="extra content">
@@ -215,10 +215,8 @@ class Card extends React.Component {
               </div>
               <br />
               <p>
-                Jardin de l'amour: online shop for preordering wedding bouquets
-                as well as other signature packages for wedding. Built with
-                react, all data stored in localhost. Responsive for desktop,
-                mobile phone and tablette.
+                Disney songs, a simply single page website to show a list of
+                disney songs
               </p>
             </div>
             <div className="extra content">
