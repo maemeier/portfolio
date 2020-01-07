@@ -37,10 +37,11 @@ class Card extends React.Component {
               </div>
               <br />
               <p>
-                Jardin de l'amour: online shop for preordering wedding bouquets
-                as well as other signature packages for wedding. Built with
-                react, all data stored in localhost. Responsive for desktop,
-                mobile phone and
+                "You will never eat alone" Eatwithme is a Social dinning
+                website, that allow you to have breakfast, lunch or dinner with
+                the strangers. Signup or login to book the events that you like,
+                or simply create your own events and enjoy eating with new
+                friends.
               </p>
             </div>
             <div class="extra content">
@@ -73,10 +74,11 @@ class Card extends React.Component {
               </div>
               <br />
               <p>
-                Jardin de l'amour: online shop for preordering wedding bouquets
-                as well as other signature packages for wedding. Built with
-                react, all data stored in localhost. Responsive for desktop,
-                mobile phone and tablette.
+                Coworking is a website to show the list of coworking space in
+                difference countries. This website is built with react,
+                styled-compoents and semantic UI. This website is also
+                responsive. More features like filtered by coutries will be
+                added soon.
               </p>
             </div>
             <div className="extra content">
@@ -111,9 +113,9 @@ class Card extends React.Component {
               <br />
               <p>
                 Jardin de l'amour: online shop for preordering wedding bouquets
-                as well as other signature packages for wedding. Built with
-                react, all data stored in localhost. Responsive for desktop,
-                mobile phone and tablette.
+                Built with react, all data stored in localhost. Responsive for
+                all screens. Filltered by type of bouquets, price range. More
+                features will be added soon.{" "}
               </p>
             </div>
             <div className="extra content">
@@ -146,12 +148,7 @@ class Card extends React.Component {
                 </span>
               </div>
               <br />
-              <p>
-                Jardin de l'amour: online shop for preordering wedding bouquets
-                as well as other signature packages for wedding. Built with
-                react, all data stored in localhost. Responsive for desktop,
-                mobile phone and tablette.
-              </p>
+              <p>Tea station is a single page website</p>
             </div>
             <div className="extra content">
               <a href="https://tea-fyni.netlify.com/">
