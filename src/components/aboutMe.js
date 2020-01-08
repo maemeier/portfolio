@@ -14,8 +14,8 @@ const AboutUs = () => {
         <div className="about-info">
           <div>
             <h2 className="middleTitle">
-              &#60; Hello World! My name is Mae Kangsadan, Web Developer and
-              Graphic Designer />
+              &#60; Hello World! My name is Kangsadan, Web Developer and Graphic
+              Designer />
             </h2>
           </div>
 
