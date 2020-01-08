@@ -13,7 +13,7 @@ const Homepage = () => {
       <Navbar />
 
       <Header />
-      <Title title={"CODE AND DESIGN"} />
+
       <AboutMe />
       <Skills />
       <Footer />
