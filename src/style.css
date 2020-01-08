@@ -90,6 +90,7 @@ body {
   height: 5px;
   margin: 0 auto;
   background: var(--primaryColor);
+  border-radius: 90px;
 }
 /* end of Title */
 

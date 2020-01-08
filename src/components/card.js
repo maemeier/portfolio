@@ -216,7 +216,7 @@ class Card extends React.Component {
               <br />
               <p>
                 Disney songs, a simply single page website to show a list of
-                disney songs
+                disney songs.
               </p>
             </div>
             <div className="extra content">
