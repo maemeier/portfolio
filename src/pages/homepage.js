@@ -12,6 +12,7 @@ const Homepage = () => {
     <div>
       <Navbar />
       <Header />
+      <div className="partition"></div>
       <AboutMe />
       <Skills />
       <Footer />
