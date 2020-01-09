@@ -11,9 +11,7 @@ const Homepage = () => {
   return (
     <div>
       <Navbar />
-
       <Header />
-
       <AboutMe />
       <Skills />
       <Footer />

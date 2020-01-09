@@ -78,7 +78,7 @@ body {
 .section-title {
   text-align: center;
   margin-bottom: 4rem;
-  margin-top: 40px;
+  margin-top: 10rem;
 }
 .section-title h4 {
   font-size: 1.5rem;
@@ -122,7 +122,7 @@ body {
 .logo4 {
   width: 100%;
   padding-top: 70px;
-  padding-bottom: 40rem;
+  margin-bottom: 40rem;
   max-width: 50rem;
   display: block;
   z-index: 6;
@@ -181,6 +181,11 @@ div.content {
     float: left;
     width: 50%;
     padding: 2rem;
+  }
+  .section-title {
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 10rem;
   }
 }
 /* End about*/
@@ -362,6 +367,11 @@ div.info {
     position: relative;
     width: 100%;
   }
+  .section-title {
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 10rem;
+  }
   div.content1 {
     padding: 4rem 0;
     max-width: 700px;
@@ -456,6 +466,11 @@ div.info {
     position: relative;
     width: 100%;
   }
+  .section-title {
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 10rem;
+  }
   div.content1 {
     padding: 4rem 0;
     max-width: 800px;
@@ -484,7 +499,7 @@ div.info {
     z-index: 6;
   }
 }
-@media screen and (min-width: 1020px) and (max-width: 1280px) {
+@media screen and (min-width: 1020px) {
   .logo4 {
     width: 100%;
     padding-top: 140px;
@@ -494,6 +509,11 @@ div.info {
     margin-right: auto;
     display: block;
     z-index: 6;
+  }
+  .section-title {
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 10rem;
   }
 
   img.fynista1 {
