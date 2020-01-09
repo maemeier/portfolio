@@ -73,9 +73,7 @@ body {
   clear: both;
   display: table;
 }
-.partition {
-  height: 70px;
-}
+
 /* Title */
 .section-title {
   text-align: center;
@@ -89,6 +87,24 @@ body {
   margin-bottom: 1rem;
 }
 .section-title div {
+  width: 5rem;
+  height: 5px;
+  margin: 0 auto;
+  background: var(--primaryColor);
+  border-radius: 90px;
+}
+
+.section-title1 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.section-title1 h4 {
+  font-size: 1.5rem;
+  letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.section-title1 div {
   width: 5rem;
   height: 5px;
   margin: 0 auto;
@@ -124,7 +140,7 @@ body {
 .logo4 {
   width: 100%;
   padding-top: 70px;
-  margin-bottom: 40rem;
+
   max-width: 50rem;
   display: block;
   z-index: 6;
@@ -724,5 +740,11 @@ div.header1 {
   .nav-links a {
     margin: 0 1rem;
     padding: 0.5rem 0;
+  }
+}
+
+@media only screen and (min-width: 4095px) and (max-width: 5120px) {
+  .logo4 {
+    margin-bottom: 10px;
   }
 }

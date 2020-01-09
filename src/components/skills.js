@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import fullstackLogo from "../img/fullstack.png";
 import designLogo2 from "../img/designLogo2.png";
-import Title from "../components/title";
+import Title1 from "../components/title2";
 
 const Skills = () => {
   return (
     <div>
-      <Title title={"PROJECTS"} />
+      <Title1 title={"PROJECTS"} />
       <div className="content-center">
         <div>
           <Link to="/coding">
