@@ -53,9 +53,9 @@ export default class Navbar extends Component {
     return (
       <Transition>
         <StyledNavbar className={this.state.show ? "active" : "hidden"}>
-          <Link className="brand" to={this.props.brand.to}>
+          <a className="brand" href={this.props.brand.to}>
             {this.props.brand.name}
-          </Link>
+          </a>
           <nav>
             <NavLinks />
           </nav>
