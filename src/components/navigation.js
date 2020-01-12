@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export default class Navbar extends Component {
@@ -52,9 +53,9 @@ export default class Navbar extends Component {
     return (
       <Transition>
         <StyledNavbar className={this.state.show ? "active" : "hidden"}>
-          <a className="brand" href={this.props.brand.to}>
+          <Link className="brand" to={this.props.brand.to}>
             {this.props.brand.name}
-          </a>
+          </Link>
           <nav>
             <NavLinks />
           </nav>
