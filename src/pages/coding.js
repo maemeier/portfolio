@@ -10,7 +10,6 @@ const Coding = () => {
   return (
     <div>
       <Header />
-
       <Card />
       <Footer />
     </div>
