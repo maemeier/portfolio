@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Title1 from "../components/title";
 import ipad from "../img/ipad1.png";
 import tea0 from "../img/tea0.png";
 import tea1 from "../img/tea1.png";
@@ -18,6 +19,7 @@ class Card extends React.Component {
   render() {
     return (
       <div className="cardBox" clearfix>
+        <Title1 title={"PROJECTS"} />
         <div className="content1">
           <div className="ui card">
             <div className="ui slide masked reveal image">
@@ -25,7 +27,12 @@ class Card extends React.Component {
               <img src={eat2} className="hidden content" />
             </div>
             <div className="content">
-              <a className="header">EatWitMe</a>
+              <a
+                className="header"
+                href="https://eatwithme-react.herokuapp.com"
+              >
+                EatWitMe
+              </a>
               <div className="meta">
                 <span className="date">
                   Built with <i className="react icon"></i>

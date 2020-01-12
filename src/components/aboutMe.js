@@ -17,8 +17,8 @@ const AboutUs = () => {
           <div className="about-info">
             <div>
               <h2 className="middleTitle">
-                &#60; Hello World! My name is Kangsadan, Web Developer and
-                Graphic Designer />
+                Hello World! My name is Kangsadan, Web Developer and Graphic
+                Designer
               </h2>
             </div>
 
@@ -29,7 +29,7 @@ const AboutUs = () => {
               creativity, and problem sloving skills. So if you are looking for
               Front-end developer who loves to use react and capable of spending
               whole day fixing bugs, just scroll down a little bit to the end of
-              the page till you find my contact! Hope to hear from you soon.--{" "}
+              the page till you find my contact! Hope to hear from you soon{" "}
               <a className="link" href="https://github.com/maemeier">
                 <strong>Check my GitHub</strong>
               </a>

@@ -5,12 +5,10 @@ import Footer from "../components/footer";
 import mae from "../img/mae.png";
 import skill from "../img/skill.png";
 import skill1 from "../img/softSkill.png";
-import Navbar from "../components/navbar";
 
 const AboutMe = () => {
   return (
     <div>
-      <Navbar />
       <Header />
       <Title title="ABOUT ME" />
       <div className="aboutBox">

@@ -7,8 +7,8 @@ const Middle = () => {
       <img className="thaiAir" src={ThaiAir} alt="logo" />{" "}
       <div className="middleBox">
         <h2 className="middleTitle">
-          &#60; Hello World! My name is Mae Kangsadan, Web Developer and Graphic
-          Designer />
+          Hello World! My name is Mae Kangsadan, Web Developer and Graphic
+          Designer.
         </h2>
         <p className="middleText">
           I have been working in a design field for over 5 years and always

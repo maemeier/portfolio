@@ -4,14 +4,13 @@ import Card from "../components/card";
 import Title from "../components/title";
 import Banner from "../components/banner";
 import Footer from "../components/footer";
-import Navbar from "../components/navbar";
+import Navbar from "../components/navigation";
 
 const Coding = () => {
   return (
     <div>
-      <Navbar />
       <Header />
-      <Title title={"CODING PROJECTS"} />
+
       <Card />
       <Footer />
     </div>
