@@ -626,7 +626,7 @@ a {
 /* Header*/
 div.header1 {
   position: relative;
-  height: 45vh;
+  height: 400px;
   display: block;
 }
 .header-background {
