@@ -36,6 +36,7 @@ const Skills = () => {
               <li>MongoDb</li>
               <li>Git</li>
               <li>Affinity Designer and Sketch</li>
+              <br />
             </ul>
           </div>
         </div>
