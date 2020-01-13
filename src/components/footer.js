@@ -19,11 +19,15 @@ const Footer = () => {
             </a>
             <a href="https://www.pinterest.de/fynista/">
               {" "}
-              <i class="pinterest square icon"></i>
+              <i class="pinterest icon"></i>
             </a>
             <a href="https://www.instagram.com/fynista/">
               {" "}
               <i class="instagram icon"></i>
+            </a>
+            <a href="mailto:bovenden31@gmail.com">
+              {" "}
+              <i class="mail icon"></i>
             </a>
           </div>
         </div>
