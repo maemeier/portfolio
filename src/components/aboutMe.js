@@ -31,7 +31,6 @@ const AboutUs = () => {
               Front-end developer who loves to use react and capable of spending
               whole day fixing bugs, just scroll down a little bit to the end of
               the page till you find my contact! Hope to hear from you soon.
-              <span> Check my Github</span>
             </p>
           </div>
         </div>
