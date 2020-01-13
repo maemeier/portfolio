@@ -38,7 +38,7 @@ const Footer = () => {
 
 const FooterElement = styled.div`
   i {
-    padding: 30px;
+    padding: 2.5rem 1.4rem;
     button: 0;
     font-size: 25px;
     justify-content: center;
