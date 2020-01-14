@@ -44,11 +44,8 @@ class Card extends React.Component {
               </div>
               <br />
               <p>
-                "You will never eat alone" Eatwithme is a Social dinning
-                website, that allow you to have breakfast, lunch or dinner with
-                the strangers. Signup or login to book the events that you like,
-                or simply create your own events and enjoy eating with new
-                friends.
+                A Social dinning website, that allow you to have breakfast,
+                lunch or dinner with the strangers.
               </p>
             </div>
             <div class="extra content">
@@ -70,7 +67,9 @@ class Card extends React.Component {
               <img src={co1} className="hidden content" />
             </div>
             <div className="content">
-              <a className="header">Co Working</a>
+              <a className="header" href="https://working-fyni.netlify.com/">
+                Co Working
+              </a>
               <div className="meta">
                 <span className="date">
                   Built with <i className="react icon"></i>
@@ -82,10 +81,7 @@ class Card extends React.Component {
               <br />
               <p>
                 Coworking is a website to show the list of coworking space in
-                difference countries. This website is built with react,
-                styled-compoents and semantic UI. This website is also
-                responsive. More features like filtered by coutries will be
-                added soon.
+                difference countries.
               </p>
             </div>
             <div className="extra content">
@@ -108,7 +104,9 @@ class Card extends React.Component {
               <img src={jar2} className="hidden content" />
             </div>
             <div className="content">
-              <a className="header">Jardin de L'Amour</a>
+              <a className="header" href="https://jardin-fyni.netlify.com/">
+                Jardin de L'Amour
+              </a>
               <div className="meta">
                 <span className="date">
                   Built with <i className="react icon"></i>
@@ -119,10 +117,8 @@ class Card extends React.Component {
               </div>
               <br />
               <p>
-                Jardin de l'amour: online shop for preordering wedding bouquets
-                Built with react, all data stored in localhost. Responsive for
-                all screens. Filltered by type of bouquets, price range. More
-                features will be added soon.{" "}
+                Jardin de l'amour: online shop for preordering wedding bouquets.
+                More features are in progress.
               </p>
             </div>
             <div className="extra content">
@@ -145,7 +141,9 @@ class Card extends React.Component {
               <img src={tea1} className="hidden content" />
             </div>
             <div className="content">
-              <a className="header">Tea Station</a>
+              <a className="header" href="https://tea-fyni.netlify.com/">
+                Tea Station
+              </a>
               <div className="meta">
                 <span className="date">
                   Built with <i className="react icon"></i>
@@ -155,7 +153,10 @@ class Card extends React.Component {
                 </span>
               </div>
               <br />
-              <p>Tea station is a single page website</p>
+              <p>
+                Tea station is a webdesign project, more pages and features are
+                coming soon.
+              </p>
             </div>
             <div className="extra content">
               <a href="https://tea-fyni.netlify.com/">
@@ -177,7 +178,12 @@ class Card extends React.Component {
               <img src={dic1} className="hidden content" />
             </div>
             <div className="content">
-              <a className="header">Dictionary</a>
+              <a
+                className="header"
+                href="https://github.com/maemeier/crud-color"
+              >
+                Dictionary
+              </a>
               <div className="meta">
                 <span className="date">
                   Built with <i className="react icon"></i>
@@ -187,10 +193,8 @@ class Card extends React.Component {
               </div>
               <br />
               <p>
-                Dictionary is a single web page for storing color vocabulary.
-                This project was a coding test for intership program. The
-                vocabulary can be added, edited and deleted (if you wish). --
-                Built with react.
+                A single webpage for storing color vocabulary. This project was
+                a coding test for intership program.
               </p>
             </div>
             <div className="extra content">
@@ -211,7 +215,9 @@ class Card extends React.Component {
               <img src={dis1} className="visible content" />
             </div>
             <div className="content">
-              <a className="header">Lyrics</a>
+              <a className="header" href="https://song-fyni.netlify.com">
+                Lyrics
+              </a>
               <div className="meta">
                 <span className="date">
                   Built with Redux<i className="react icon"></i>

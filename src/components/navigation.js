@@ -90,7 +90,7 @@ const StyledNavbar = styled.div`
 
   z-index: 1000;
   a {
-    margin-right: 5rem;
+    margin-right: 2.3rem;
     font-weight: normal;
     color: black;
     text-decoration: none;
