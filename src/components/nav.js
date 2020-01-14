@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import AppBar from "@material-ui/core/Appbar";
-import Toolbar from "@material-ui/core/Toolbar";
+import AppBar from "@material-ui/core/AppBar";
+import ToolBar from "@material-ui/core/ToolBar";
 import MenuIcon from "@material-ui/icons/Menu";
 import IconButton from "@material-ui/core/IconButton";
 import SideDrawer from "./sideDrawer";
@@ -44,7 +44,7 @@ class Navigation extends Component {
           padding: "20px 10px"
         }}
       >
-        <Toolbar>
+        <ToolBar>
           <IconButton
             aria-lable="Menu"
             color="inherit"
@@ -57,7 +57,7 @@ class Navigation extends Component {
             open={this.state.drawerOpen}
             onClose={value => this.toggleDrawer(value)}
           ></SideDrawer>
-        </Toolbar>
+        </ToolBar>
       </AppBar>
     );
   }
