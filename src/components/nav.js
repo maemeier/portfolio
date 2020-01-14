@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import AppBar from "@material-ui/core/Appbar";
 import Toolbar from "@material-ui/core/Toolbar";
 import MenuIcon from "@material-ui/icons/Menu";
-import Iconbutton from "@material-ui/core/Iconbutton";
+import IconButton from "@material-ui/core/IconButton";
 import SideDrawer from "./sideDrawer";
 
 class Navigation extends Component {
@@ -45,13 +45,13 @@ class Navigation extends Component {
         }}
       >
         <Toolbar>
-          <Iconbutton
+          <IconButton
             aria-lable="Menu"
             color="inherit"
             onClick={() => this.toggleDrawer(true)}
           >
             <MenuIcon />
-          </Iconbutton>
+          </IconButton>
 
           <SideDrawer
             open={this.state.drawerOpen}
