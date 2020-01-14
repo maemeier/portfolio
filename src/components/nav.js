@@ -1,11 +1,13 @@
 import React, { Component } from "react";
+
 import AppBar from "@material-ui/core/AppBar";
-import ToolBar from "@material-ui/core/ToolBar";
+import Toolbar from "@material-ui/core/Toolbar";
 import MenuIcon from "@material-ui/icons/Menu";
 import IconButton from "@material-ui/core/IconButton";
+
 import SideDrawer from "./sideDrawer";
 
-class Navigation extends Component {
+class Header extends Component {
   state = {
     drawerOpen: false,
     headerShow: false
@@ -26,27 +28,26 @@ class Navigation extends Component {
       });
     }
   };
+
   toggleDrawer = value => {
     this.setState({
       drawerOpen: value
     });
   };
+
   render() {
     return (
       <AppBar
         position="fixed"
         style={{
-          backgroundColor: this.state.headerShow
-            ? "var(--darkPink)"
-            : "transparent",
-          color: this.state.headerShow ? "var(--mainBlack)" : "var(--offWhite)",
+          backgroundColor: this.state.headerShow ? "#2f2f2f" : "transparent",
           boxShadow: "none",
-          padding: "20px 10px"
+          padding: "10px 0px"
         }}
       >
-        <ToolBar>
+        <Toolbar>
           <IconButton
-            aria-lable="Menu"
+            aria-label="Menu"
             color="inherit"
             onClick={() => this.toggleDrawer(true)}
           >
@@ -56,11 +57,11 @@ class Navigation extends Component {
           <SideDrawer
             open={this.state.drawerOpen}
             onClose={value => this.toggleDrawer(value)}
-          ></SideDrawer>
-        </ToolBar>
+          />
+        </Toolbar>
       </AppBar>
     );
   }
 }
 
-export default Navigation;
+export default Header;
