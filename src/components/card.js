@@ -38,10 +38,8 @@ class Card extends React.Component {
               <div className="meta">
                 <span className="date">
                   Built with <i className="react icon"></i>
-                  <i class="node js icon"></i>
                   <i class="js square icon"></i>
                   <i class="html5 icon"></i>
-                  <i class="database icon"></i>
                 </span>
               </div>
               <br />
