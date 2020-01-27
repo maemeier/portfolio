@@ -15,12 +15,57 @@ import eat2 from "../img/eat2.png";
 import dic0 from "../img/dic0.png";
 import dic1 from "../img/dic1.png";
 import dis1 from "../img/dis1.png";
+import drag0 from "../img/drag0.png";
+import drag1 from "../img/drag1.png";
 class Card extends React.Component {
   render() {
     return (
       <div className="cardBox" clearfix>
         <Title1 title={"PROJECTS"} />
         <div className="content1">
+          <div className="ui card">
+            <div className="ui slide masked reveal image">
+              <img src={drag0} className="visible content" />
+              <img src={drag1} className="hidden content" />
+            </div>
+            <div className="content">
+              <a
+                className="header"
+                href="https://silly-boyd-19f817.netlify.com/"
+              >
+                Drag and Drop
+              </a>
+              <div className="meta">
+                <span className="date">
+                  Built with <i className="react icon"></i>
+                  <i class="node js icon"></i>
+                  <i class="js square icon"></i>
+                  <i class="html5 icon"></i>
+                  <i class="database icon"></i>
+                </span>
+              </div>
+              <br />
+              <p>
+                Drag and Drop with react-beautiful-dnd, and interactive task
+                management application that allows users to move items between
+                columns
+              </p>
+            </div>
+            <div class="extra content">
+              <a href="https://silly-boyd-19f817.netlify.com/">
+                <div class="ui two buttons">
+                  <div class="ui basic green button">Check Website</div>
+                </div>
+              </a>
+              <a>
+                <i className="github icon"></i>{" "}
+                <a href="https://github.com/maemeier/drap-and-drop-react">
+                  GitHub
+                </a>
+              </a>
+            </div>
+          </div>
+
           <div className="ui card">
             <div className="ui slide masked reveal image">
               <img src={eat1} className="visible content" />
