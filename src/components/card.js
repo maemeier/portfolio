@@ -29,11 +29,8 @@ class Card extends React.Component {
               <img src={drag1} className="hidden content" />
             </div>
             <div className="content">
-              <a
-                className="header"
-                href="https://silly-boyd-19f817.netlify.com/"
-              >
-                Drag and Drop
+              <a className="header" href="https://covid-de.netlify.app/">
+                Covid Deutschland
               </a>
               <div className="meta">
                 <span className="date">
@@ -44,13 +41,12 @@ class Card extends React.Component {
               </div>
               <br />
               <p>
-                Drag and Drop with react-beautiful-dnd, and interactive task
-                management application that allows users to move items between
-                columns
+                Live tracking covid in Germany. Check the number of case in each
+                state and total cases in Germany.
               </p>
             </div>
             <div class="extra content">
-              <a href="https://silly-boyd-19f817.netlify.com/">
+              <a href="https://covid-de.netlify.app/">
                 <div class="ui two buttons">
                   <div class="ui basic green button">Check Website</div>
                 </div>
@@ -72,7 +68,7 @@ class Card extends React.Component {
             <div className="content">
               <a
                 className="header"
-                href="https://eatwithme-react.herokuapp.com"
+                href="https://github.com/maemeier/eatwithme_react"
               >
                 EatWitMe
               </a>
@@ -92,7 +88,7 @@ class Card extends React.Component {
               </p>
             </div>
             <div class="extra content">
-              <a href="https://eatwithme-react.herokuapp.com/">
+              <a href="https://github.com/maemeier/eatwithme_react">
                 <div class="ui two buttons">
                   <div class="ui basic green button">Check Website</div>
                 </div>
